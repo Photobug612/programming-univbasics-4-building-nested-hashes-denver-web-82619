@@ -1,6 +1,6 @@
 def base_hash
   simple_hash = { 
-    :railroads => "red" 
+    :railroads => {} 
   }
 end
 
