@@ -16,7 +16,7 @@ end
 
 def monopoly_with_third_tier
   monopoly = { 
-    :railroads => {:pieces => 4, :rent_in_dollars => {:one_piece_owned => 25, :two_piece_owned => 50, :three_piece_owned => 75, :fourth_piece_owned => 100}, :names => {} } 
+    :railroads => {:pieces => 4, :rent_in_dollars => {:one_piece_owned => 25, :two_piece_owned => 50, :three_piece_owned => 75, :fourth_piece_owned => 100}, :names => {:reading, :bando, :shortline,  } } 
   }
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
